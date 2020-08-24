@@ -20,5 +20,5 @@ image = vision.types.Image(content=content)
 
 response = client.text_detection(image=image)  # returns TextAnnotation
 
-# text_annotations
+# text_annotations manipulacion
 print(response.text_annotations)
